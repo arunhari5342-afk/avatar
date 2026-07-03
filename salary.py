@@ -1,9 +1,9 @@
 basic_salary = float(input("enter your basic salary:"))
 hra = basic_salary*0.20
 da = basic_salary*0.10
-ta = basic_salary*0.5
+ta = basic_salary*0.05
 pf = basic_salary*0.12
-tax = basic_salary*0.8
+tax = basic_salary*0.08
 total_allowances = hra+da+ta
 total_deductions = pf+tax
 net_salary = basic_salary+total_allowances-total_deductions
