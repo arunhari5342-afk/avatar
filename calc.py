@@ -1,4 +1,8 @@
-a = int(input())
-b = int(input())
-c = a + b
-print(c)
+name = input("enter your name:")
+age = input("enter your age:")
+gender = input("enter your gender:")
+city = input("enter your city:")
+print("name:",name)
+print("age:",age)
+print("gender:",gender)
+print("city:",city)
